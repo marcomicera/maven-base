@@ -1,6 +1,6 @@
-# Basic project template
+# Maven project template
 
-Template I use for all sorts of projects. It includes:
+Template I use for Maven projects. It includes:
 
 - [super-linter](https://github.com/github/super-linter)
   - Locally:
