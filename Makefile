@@ -1,4 +1,4 @@
-all: clean checks run
+all: clean checks build run
 
 .PHONY: clean
 .SILENT: clean
