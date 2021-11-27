@@ -1,3 +1,10 @@
+all: clean checks run
+
+.PHONY: clean
+.SILENT: clean
+clean:
+	mvn clean
+
 .PHONY: checks
 .SILENT: checks
 checks: linters gitleaks
@@ -25,3 +32,13 @@ gitleaks:
 		--verbose \
 		--redact \
 		detect
+
+.PHONY: build compile
+.SILENT: build compile
+build compile:
+	mvn compile
+
+.PHONY: run exec
+.SILENT: run exec
+run exec:
+	mvn exec:java
