@@ -14,3 +14,9 @@ Template I use for Maven projects. It includes:
     make gitleaks
     ```
   - [GitHub Action](.github/workflows/gitleaks.yaml)
+
+## Usage
+
+```shell script
+make build run
+```
